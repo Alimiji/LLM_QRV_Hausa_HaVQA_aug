@@ -1,0 +1,41 @@
+# === Environnements virtuels ===
+venv/
+.env/
+.venv/
+
+# === Fichiers temporaires Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Notebooks Jupyter temporaires ===
+*.ipynb_checkpoints
+
+# === Logs et fichiers temporaires ===
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# === Données volumineuses ===
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# === Modèles et checkpoints ===
+*.pt
+*.pth
+*.bin
+*.h5
+checkpoints/
+runs/
+outputs/
+
+# === Cache divers ===
+.cache/
