@@ -22,10 +22,8 @@ __pycache__/
 # === Données volumineuses ===
 data/
 datasets/
-*.csv
 *.tsv
 *.json
-*.zip
 *.tar.gz
 
 # === Modèles et checkpoints ===
