@@ -3,7 +3,7 @@ Le tableau ci-dessous présente les statistiques de ce jeu de données
 
 | Jeu de données          | Train  | Test  | Images |
 |--------------------------|--------|-------|--------|
-| HaVQA_aug (offline)      | 9 625  | 2 407 | 3 110  |
+| HaVQA_aug       | 9 625  | 2 407 | 3 110  |
 
  
  Les auteurs du dataset  original **HaVQA** sont:
