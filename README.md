@@ -1,5 +1,6 @@
- Le jeu de données **HaVQA_aug** a été construit à partir du dataset original **HaVQA** par augmentation.
-Le tableau ci-dessous présente les statistiques de ce jeu de données
+The **HaVQA_aug** dataset was constructed from the original **HaVQA** dataset through augmentation.  
+The table below presents the statistics of this dataset.
+
 
 | Jeu de données          | Train  | Test  | Images |
 |--------------------------|--------|-------|--------|
