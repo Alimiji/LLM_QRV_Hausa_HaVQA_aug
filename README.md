@@ -46,3 +46,46 @@ The authors of the original HaVQA dataset are:
 | llama-3.2-1B | deit-base-patch16-224 | 18.36% | 18.36% | 1.36% |
 
 ### Fine-tuning results of LLMs and image encoders on HaVQA dataset
+
+
+
+
+| **LLMs** | **Image Encoder** | **WuPalmer** | **Accuracy** | **F1-score** |
+|-----------|-------------------|--------------|---------------|--------------|
+| mT0-base | vit-base-patch16-224-in21k | 15.85% | 15.86% | 0.38% |
+| mT0-base | clip-vit-base-patch32 | 15.37% | 15.37% | 0.37% |
+| mT0-base | mae-base | 15.87% | 15.87% | 0.57% |
+| mT0-base | deit-base-patch16-224 | 15.87% | 15.87% | 0.37% |
+| mT0-large | vit-base-patch16-224-in21k | 16.13% | 16.13% | 0.38% |
+| mT0-large | clip-vit-base-patch32 | 16.35% | 16.35% | 0.37% |
+| mT0-large | mae-base | 15.96% | 15.96% | 0.41% |
+| mT0-large | deit-base-patch16-224 | 16.34% | 16.34% | 0.41% |
+| afriberta-large | vit-base-patch16-224 | 19.63% | 19.63% | 0.99% |
+| afriberta-large | clip-vit-base-patch32 | 19.56% | 19.56% | 0.90% |
+| afriberta-large | mae-base | 19.47% | 19.47% | 0.90% |
+| afriberta-large | deit-base-patch16-224 | 19.43% | 19.43% | 0.89% |
+| afris-bert-large-76L | vit-base-patch16-224 | 18.80% | 18.80% | 0.81% |
+| afris-bert-large-76L | clip-vit-base-patch32 | 18.80% | 18.80% | 0.81% |
+| afris-bert-large-76L | mae-base | 18.07% | 18.07% | 0.74% |
+| afris-bert-large-76L | deit-base-patch16-224 | 18.07% | 18.07% | 0.74% |
+| gemini | vit-base-patch16-224-in21k | 14.54% | 14.52% | 0.36% |
+| gemini | clip-vit-base-patch32 | 14.52% | 14.52% | 0.37% |
+| bloomz560 | vit-base-patch16-224-in21k | 14.09% | 14.09% | 0.31% |
+| bloomz560 | mae-base | 17.49% | 17.49% | 0.75% |
+| bloomz7b1 | vit-base-patch16-224-in21k | 18.37% | 18.37% | 0.67% |
+| bloomz7b1 | mae-base | 18.37% | 18.37% | 0.67% |
+| bloomz7b1 | deit-base-patch16-224 | 18.37% | 18.37% | 0.67% |
+| deepseek-R1-1.5B | vit-base-patch16-224 | 18.49% | 18.49% | 1.15% |
+| deepseek-R1-1.5B | clip-vit-base-patch32 | 18.49% | 18.49% | 1.15% |
+| deepseek-R1-1.5B | mae-base | 15.91% | 15.91% | 0.47% |
+| deepseek-R1-1.5B | deit-base-patch16-224 | 15.95% | 15.95% | 0.47% |
+| llama-3.2-1B | vit-base-patch16-224-in21k | **17.59%** | **17.59%** | **3.14%** |
+| llama-3.2-1B | mae-base | 17.36% | 17.36% | 3.04% |
+| llama-3.2-1B | deit-base-patch16-224 | 17.76% | 17.76% | **3.40%** |
+
+
+### Fine-tuning results of LLMs and image encoders with inline augmentation on HaVQA dataset
+
+
+
+
