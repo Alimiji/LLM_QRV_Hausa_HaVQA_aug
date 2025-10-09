@@ -88,4 +88,48 @@ The authors of the original HaVQA dataset are:
 
 
 
+| **LLMs** | **Image Encoder** | **WuPalmer** | **Accuracy** | **F1-score** |
+|-----------|-------------------|--------------|---------------|--------------|
+| mT0-base | vit-base-patch16-224-in21k | 28.07% | 28.04% | 5.97% |
+| mT0-base | clip-vit-base-patch32 | 27.25% | 27.54% | 5.41% |
+| mT0-base | mae-base | 32.19% | 31.96% | 9.90% |
+| mT0-base | deit-base-patch16-224 | 31.94% | 31.94% | 9.86% |
+| mT0-large | vit-base-patch16-224-in21k | 34.13% | 34.13% | 14.91% |
+| mT0-large | clip-vit-base-patch32 | 34.14% | 34.14% | 14.94% |
+| mT0-large | mae-base | 33.02% | 33.25% | 11.45% |
+| mT0-large | deit-base-patch16-224 | 31.93% | 31.93% | 11.34% |
+| afriberta-large | vit-base-patch16-224 | 32.74% | 32.74% | 13.40% |
+| afriberta-large | clip-vit-base-patch32 | 32.74% | 32.74% | 13.40% |
+| afriberta-large | mae-base | 33.10% | 33.09% | 13.90% |
+| afriberta-large | deit-base-patch16-224 | 31.70% | 31.70% | 13.05% |
+| afris-bert-large-76L | vit-base-patch16-224 | 23.07% | 23.07% | 9.35% |
+| afris-bert-large-76L | clip-vit-base-patch32 | 24.08% | 24.08% | 9.96% |
+| afris-bert-large-76L | mae-base | 26.49% | 26.49% | 11.50% |
+| afris-bert-large-76L | deit-base-patch16-224 | 26.94% | 26.94% | 11.91% |
+| gemini | vit-base-patch16-224-in21k | **35.85%** | **35.85%** | **15.32%** |
+| gemini | clip-vit-base-patch32 | 33.39% | 33.39% | 12.79% |
+| gemini | mae-base | 33.39% | 33.39% | 12.79% |
+| bloomz560 | vit-base-patch16-224-in21k | 16.13% | 16.12% | 1.41% |
+| bloomz560 | clip-vit-base-patch32 | 17.59% | 17.59% | 1.44% |
+| bloomz560 | mae-base | 15.51% | 15.12% | 1.16% |
+| bloomz560 | deit-base-patch16-224 | 15.83% | 15.84% | 1.17% |
+| bloomz7b1 | vit-base-patch16-224-in21k | 17.36% | 17.36% | 2.17% |
+| bloomz7b1 | clip-vit-base-patch32 | 18.34% | 18.34% | 2.17% |
+| bloomz7b1 | mae-base | 16.17% | 16.17% | 1.74% |
+| bloomz7b1 | deit-base-patch16-224 | 16.73% | 16.73% | 1.74% |
+| deepseek-R1-1.5B | vit-base-patch16-224-in21k | 18.70% | 18.49% | 1.91% |
+| deepseek-R1-1.5B | clip-vit-base-patch32 | 21.10% | 21.09% | 2.07% |
+| deepseek-R1-1.5B | mae-base | 15.97% | 15.96% | 2.07% |
+| deepseek-R1-1.5B | deit-base-patch16-224 | 15.97% | 15.96% | 2.07% |
+| llama-3.2-1B | vit-base-patch16-224-in21k | **17.59%** | **17.59%** | **3.14%** |
+| llama-3.2-1B | mae-base | 17.36% | 17.36% | 3.04% |
+| llama-3.2-1B | deit-base-patch16-224 | 17.76% | 17.76% | 3.40% |
+
+
+### Fine-tuning results of offline augmentation on HaVQA dataset
+
+
+
+
+
 
